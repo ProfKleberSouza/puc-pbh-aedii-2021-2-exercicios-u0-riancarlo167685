@@ -59,5 +59,3 @@ int main() {
 
   return 0;
 }
-
-//printf("%s %d\n",aluno[i].nome,aluno[i].nota);
