@@ -1,8 +1,13 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+  int n,nota;
+  
+  scanf("%d",&n);
+  char nome[n][20];
+  
+  scanf("%s %d",nome[n],&nota);
+  printf("%s %d",nome[0],nota);
+
+  return 0;
 }
